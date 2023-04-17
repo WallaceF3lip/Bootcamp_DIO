@@ -18,6 +18,10 @@ cd --> Usado para entrar em pastas
 
 cd .. --> usado para sair de pastas
 
+git config --local user.name "Seu nome aqui"
+
+git config --local user.email "seu@email.aqui"
+
 git init --> Usado na configuração inicial de um novo repositorio, que cria um novo subdiretório
 
 git add . --> Usado para adicionar arquivos novos e modoficados 
