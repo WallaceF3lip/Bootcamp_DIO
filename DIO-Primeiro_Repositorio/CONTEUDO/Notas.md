@@ -11,30 +11,33 @@ MODO DE USAR:
 É usado o Git Bash. Se estiver no windows é só ir na pasta do projeto, cliclar com o
 botão direito do mouse que Vai abrir a tela do terminal git.
 
-COMANDO BASICO:
-ls --> Usado para listar os arquivos da pasta
+### COMANDO BASICO:
+* ls --> Usado para listar os arquivos da pasta
 
-cd --> Usado para entrar em pastas
+* cd --> Usado para entrar em pastas
 
-cd .. --> usado para sair de pastas
+* cd .. --> usado para sair de pastas
 
-git config --local user.name "Seu nome aqui"
+  ### GIT BASICO:
 
-git config --local user.email "seu@email.aqui"
+* git config --**global** user.name "Seu nome aqui"
+###### git config --**local** user.name "Seu nome aqui"
 
-git init --> Usado na configuração inicial de um novo repositorio, que cria um novo subdiretório
+* git config --**global** user.email "seu@email.aqui"
+###### git config --**local** user.email "seu@email.aqui"
 
-git add . --> Usado para adicionar arquivos novos e modoficados 
+* git clone --> Usado para baixar arquivo direto do GitHub
 
-git status --> Usado para ver o estado do seu projeto, o que sera preciso para controlar ou
+* git init --> Usado na configuração inicial de um novo repositorio, que cria um novo subdiretório
+
+* git add . --> Usado para adicionar arquivos novos e modoficados 
+
+* git status --> Usado para ver o estado do seu projeto, o que sera preciso para controlar ou
 enviar a versão 
 
-git clone --> Usado para baixar arquivo direto do GitHub
+* git commit -m "<<MOTIVO DA ALTERAÇÃO>>" --> o commit é a realização de um conjunto de mudanças, alterações que você realizou em seu projeto.
 
-git commit -m "<<MOTIVI DA ALTERAÇÃO>>" --> Usado para a realização de um conjunto de mudanças
-provisórias permanentes
-
-git push origin main --> Usado para realizar o envia do projeto ao GitHub
+* git push origin main --> Usado para realizar o envia do projeto ao GitHub
 
 COMO FOI:
 Usando a versão 2.39.0 do Git, acabou dando erro na hora de fazer o PUSH,
